@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const Order = require('../models/Order');
+const Order = require('../models/order');
 
 // @route    GET api/orders
 // @desc     Get all orders for the logged in user

@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const Product = require('../models/Product');
-const Order = require('../models/Order');
+const Product = require('../models/product');
+const Order = require('../models/order');
 
 // @route    POST api/checkout
 // @desc     Checkout products
