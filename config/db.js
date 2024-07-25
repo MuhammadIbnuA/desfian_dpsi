@@ -7,6 +7,9 @@ dotenv.config();
 // Fetch mongoURI from environment variables
 const mongoURI = process.env.MONGO_URI;
 
+// Log the mongoURI to ensure it's being set correctly
+console.log('MongoURI:', mongoURI);
+
 const connectDB = async () => {
     try {
         // Connect to MongoDB with proper options
